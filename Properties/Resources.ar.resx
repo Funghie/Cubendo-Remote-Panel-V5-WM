@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MenuAlwaysOnTop" xml:space="preserve">
+    <value>دائماً في الأعلى</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuShowTitleBar" xml:space="preserve">
+    <value>إظهار شريط العنوان</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuShowStatus" xml:space="preserve">
+    <value>إظهار الحالة</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuDisplaySectionHeaders" xml:space="preserve">
+    <value>عرض رؤوس الأقسام</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuPanelTransparency" xml:space="preserve">
+    <value>شفافية اللوحة</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuAutoSwitch" xml:space="preserve">
+    <value>تبديل تلقائي</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuMakeCollapsible" xml:space="preserve">
+    <value>جعلها قابلة للطي</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuSelectButtonPanel" xml:space="preserve">
+    <value>اختيار لوحة الأزرار</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuRefreshCurrentPanel" xml:space="preserve">
+    <value>تحديث اللوحة الحالية</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuCreateNewButtonPanel" xml:space="preserve">
+    <value>إنشاء لوحة أزرار جديدة</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuEditButtonFile" xml:space="preserve">
+    <value>تعديل ملف الأزرار</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuEditPanelSettings" xml:space="preserve">
+    <value>تعديل إعدادات اللوحة</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuEditGlobalSettings" xml:space="preserve">
+    <value>تعديل الإعدادات العامة</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuMovePanelToCentre" xml:space="preserve">
+    <value>نقل اللوحة إلى الوسط</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuShowMidiInFromHost" xml:space="preserve">
+    <value>إظهار MIDI من المضيف</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuViewReadme" xml:space="preserve">
+    <value>عرض ملف README</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>حول إصدار CRP {0}</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>خروج</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuCopyColour" xml:space="preserve">
+    <value>نسخ اللون</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuPasteColour" xml:space="preserve">
+    <value>لصق اللون</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="TrayShowHide" xml:space="preserve">
+    <value>إظهار / إخفاء</value>
+    <comment>Tray menu item</comment>
+  </data>
+  <data name="TrayExitApplication" xml:space="preserve">
+    <value>خروج من التطبيق</value>
+    <comment>Tray menu item</comment>
+  </data>
+  <data name="DialogLoopMidiNotRunning" xml:space="preserve">
+    <value>لم يتم العثور على منفذ MIDI الافتراضي في ملف الإعدادات.\n\nهل تريد المتابعة بدون وظيفة MIDI؟\n\nستحتاج إلى إعادة تشغيل التطبيق لاستخدام MIDI.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogMidiDeviceNotFound" xml:space="preserve">
+    <value>لم يتم العثور على جهاز MIDI</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogDefaultButtonsMissing" xml:space="preserve">
+    <value>لا يمكن العثور على الملف الافتراضي buttons.txt!\n\nيرجى إعادة تثبيت التطبيق أو استعادة الملف المفقود.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogPanelFileMissing" xml:space="preserve">
+    <value>ملف اللوحة مفقود</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogNoButtonPanelFilesFound" xml:space="preserve">
+    <value>لم يتم العثور على ملفات لوحة الأزرار.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogChooseButtonPanel" xml:space="preserve">
+    <value>اختر لوحة الأزرار</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogSelectButtonPanel" xml:space="preserve">
+    <value>حدد لوحة الأزرار:</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Dialog button</comment>
+  </data>
+  <data name="DialogEnterNewPanelName" xml:space="preserve">
+    <value>أدخل اسم لوحة جديدة:</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCreateNewButtonPanel" xml:space="preserve">
+    <value>إنشاء لوحة أزرار جديدة</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogMyPanel" xml:space="preserve">
+    <value>لوحتي</value>
+    <comment>Dialog default panel name</comment>
+  </data>
+  <data name="DialogFileExists" xml:space="preserve">
+    <value>ملفات اللوحة موجودة بالفعل:\n{0}\n{1}\nهل تريد الكتابة فوقها؟</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogPanelCreated" xml:space="preserve">
+    <value>تم إنشاء لوحة أزرار جديدة:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogIniFileNotFound" xml:space="preserve">
+    <value>لم يتم العثور على ملف ini.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogError" xml:space="preserve">
+    <value>خطأ</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonIniEditor" xml:space="preserve">
+    <value>تعذر فتح محرر زر INI:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogSettingsIniFileNotFound" xml:space="preserve">
+    <value>لم يتم العثور على ملف settings.ini.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCouldNotOpenGlobalSettingsEditor" xml:space="preserve">
+    <value>تعذر فتح محرر الإعدادات العامة:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogButtonFileNotFound" xml:space="preserve">
+    <value>لم يتم العثور على ملف الأزرار.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonFile" xml:space="preserve">
+    <value>تعذر فتح ملف الأزرار:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogWindowTransparency" xml:space="preserve">
+    <value>شفافية النافذة</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogOK" xml:space="preserve">
+    <value>موافق</value>
+    <comment>Dialog button</comment>
+  </data>
+  <data name="DialogCancelButton" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Dialog button</comment>
+  </data>
+  <data name="DialogSectionHeaderId" xml:space="preserve">
+    <value>معرف رأس القسم#{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogName" xml:space="preserve">
+    <value>الاسم:</value>
+    <comment>Dialog label</comment>
+  </data>
+  <data name="DialogColour" xml:space="preserve">
+    <value>اللون:</value>
+    <comment>Dialog label</comment>
+  </data>
+  <data name="DialogSectionNameCannotBeEmpty" xml:space="preserve">
+    <value>اسم القسم لا يمكن أن يكون فارغاً.</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogValidation" xml:space="preserve">
+    <value>التحقق</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogPleaseEnterValidColor" xml:space="preserve">
+    <value>يرجى إدخال اسم لون صالح (مثل أحمر) أو رمز سداسي عشري (مثل #ff0000).</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogReadmeNotFound" xml:space="preserve">
+    <value>لم يتم العثور على README.txt.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogFailedToSendKeySequence" xml:space="preserve">
+    <value>فشل في إرسال تسلسل المفاتيح:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogDeleteNotAllowed" xml:space="preserve">
+    <value>الحذف غير مسموح</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogAtLeastOneButtonMustRemain" xml:space="preserve">
+    <value>يجب أن يبقى زر واحد على الأقل.</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogSettingsSaved" xml:space="preserve">
+    <value>تم حفظ الإعدادات بنجاح.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogSettingsSaveError" xml:space="preserve">
+    <value>تعذر حفظ الإعدادات. يرجى التحقق من أذونات الملف.</value>
+    <comment>Dialog error</comment>
+  </data>
+  <data name="DialogConfirmDeleteProcess" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف هذه العملية؟</value>
+    <comment>Dialog confirmation</comment>
+  </data>
+  <data name="DialogProcessAdded" xml:space="preserve">
+    <value>تمت إضافة عملية جديدة.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogProcessDeleted" xml:space="preserve">
+    <value>تم حذف العملية.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogInvalidProcessName" xml:space="preserve">
+    <value>اسم العملية لا يمكن أن يكون فارغاً.</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogInvalidPanelFile" xml:space="preserve">
+    <value>اسم ملف اللوحة غير صالح أو مفقود.</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogColorCopySuccess" xml:space="preserve">
+    <value>تم نسخ اللون إلى الحافظة.</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogColorPasteError" xml:space="preserve">
+    <value>الحافظة لا تحتوي على قيمة لون صالحة.</value>
+    <comment>Dialog error</comment>
+  </data>
+  <data name="DialogSettingsLoadError" xml:space="preserve">
+    <value>حدث خطأ أثناء تحميل الإعدادات. قد لا تتوفر بعض القيم.</value>
+    <comment>Dialog error</comment>
+  </data>
+  <data name="StatusActiveDaw" xml:space="preserve">
+    <value>DAW النشط: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="StatusMidiOut" xml:space="preserve">
+    <value>MIDI الخارج: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="StatusMidiIn" xml:space="preserve">
+    <value>MIDI الداخل: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="StatusAOT" xml:space="preserve">
+    <value>AOT: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="ContextMenuChannel" xml:space="preserve">
+    <value>القناة: {0}</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuNoteValue" xml:space="preserve">
+    <value>قيمة النوتة</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuCCValue" xml:space="preserve">
+    <value>قيمة CC</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuValueDown" xml:space="preserve">
+    <value>{0} للأسفل: {1}</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuValueUp" xml:space="preserve">
+    <value>{0} للأعلى: {1}</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>CN Remote {0} : {1}</value>
+    <comment>Main Form1 title</comment>
+  </data>
+  <data name="EditMidiActionForm_Title" xml:space="preserve">
+    <value>تعديل إجراء الزر</value>
+    <comment>EditMidiActionForm title</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveLeft" xml:space="preserve">
+    <value>تحريك لليسار</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveRight" xml:space="preserve">
+    <value>تحريك لليمين</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Name" xml:space="preserve">
+    <value>الاسم:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Tooltip" xml:space="preserve">
+    <value>تلميح:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Channel" xml:space="preserve">
+    <value>القناة:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Type" xml:space="preserve">
+    <value>النوع:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Value" xml:space="preserve">
+    <value>القيمة:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Press" xml:space="preserve">
+    <value>ضغط:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Release" xml:space="preserve">
+    <value>إفلات:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Add" xml:space="preserve">
+    <value>إضافة</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Delete" xml:space="preserve">
+    <value>حذف</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Save" xml:space="preserve">
+    <value>حفظ</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddTitle" xml:space="preserve">
+    <value>تأكيد الإضافة</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddText" xml:space="preserve">
+    <value>إضافة زر جديد:
+الاسم: {0}
+التلميح: {1}
+القناة: {2}
+النوع: {3}
+{4}
+قيمة للأسفل: {5}
+قيمة للأعلى: {6}
+
+هل تريد المتابعة؟</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteTitle" xml:space="preserve">
+    <value>تأكيد الحذف</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteText" xml:space="preserve">
+    <value>حذف هذا الزر.
+هل أنت متأكد؟</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgTitle" xml:space="preserve">
+    <value>حفظ</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgText" xml:space="preserve">
+    <value>تم حفظ الزر</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_MouseUpX" xml:space="preserve">
+    <value>X</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameLabel" xml:space="preserve">
+    <value>اسم الزر (يظهر على اللوحة)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameTextBox" xml:space="preserve">
+    <value>أدخل اسم العرض للزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipLabel" xml:space="preserve">
+    <value>نص التلميح (يظهر عند المرور)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipTextBox" xml:space="preserve">
+    <value>تلميح لهذا الزر
+لإضافة سطر جديد استخدم
+شرطة مائلة + n صغيرة</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelLabel" xml:space="preserve">
+    <value>قناة MIDI (1-16)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelNumeric" xml:space="preserve">
+    <value>قناة MIDI (1-16)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeLabel" xml:space="preserve">
+    <value>CC، نوتة أو مفتاح</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeComboBox" xml:space="preserve">
+    <value>CC، نوتة أو مفتاح</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueLabel" xml:space="preserve">
+    <value>قيمة CC
+رقم النوتة
+أمر المفتاح</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumeric" xml:space="preserve">
+    <value>قيمة CC
+رقم النوتة</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_KeyStringTextBox" xml:space="preserve">
+    <value>أمر المفتاح
+استخدم "+" لإضافة مفاتيح متعددة</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressLabel" xml:space="preserve">
+    <value>القيمة المرسلة عند الضغط على الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumeric" xml:space="preserve">
+    <value>القيمة المرسلة عند الضغط على الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseLabel" xml:space="preserve">
+    <value>القيمة المرسلة عند إفلات الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumeric" xml:space="preserve">
+    <value>القيمة المرسلة عند إفلات الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MouseUpXLabel" xml:space="preserve">
+    <value>مسح قيمة إفلات الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveLeftButton" xml:space="preserve">
+    <value>نقل هذا الزر إلى اليسار</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveRightButton" xml:space="preserve">
+    <value>نقل هذا الزر إلى اليمين</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_AddButton" xml:space="preserve">
+    <value>إضافة زر جديد بهذه الإعدادات</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_DeleteButton" xml:space="preserve">
+    <value>حذف هذا الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_SaveButton" xml:space="preserve">
+    <value>حفظ التغييرات على هذا الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_CancelButton" xml:space="preserve">
+    <value>إلغاء وإغلاق هذه النافذة</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumericText" xml:space="preserve">
+    <value>قيمة CC أو نوتة، أو مفاتيح الاختصار</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumericText" xml:space="preserve">
+    <value>القيمة المرسلة عند الضغط على الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumericText" xml:space="preserve">
+    <value>القيمة المرسلة عند إفلات الزر</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiPorts" xml:space="preserve">
+    <value>منافذ MIDI الافتراضية</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiOut" xml:space="preserve">
+    <value>خروج MIDI للوحة:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiIn" xml:space="preserve">
+    <value>دخول MIDI للوحة:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiActivity" xml:space="preserve">
+    <value>أزرار نشاط MIDI</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelMidiInColour" xml:space="preserve">
+    <value>لون نشاط MIDI الداخل:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowDown" xml:space="preserve">
+    <value>لون توهج زر الضغط:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowUp" xml:space="preserve">
+    <value>لون توهج زر الإفلات:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxTooltips" xml:space="preserve">
+    <value>إعدادات التلميحات</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipBack" xml:space="preserve">
+    <value>خلفية التلميح:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipText" xml:space="preserve">
+    <value>نص التلميح:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxProcesses" xml:space="preserve">
+    <value>العمليات</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonAddProcess" xml:space="preserve">
+    <value>إضافة</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonDeleteProcess" xml:space="preserve">
+    <value>حذف</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessName" xml:space="preserve">
+    <value>اسم العملية:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanel" xml:space="preserve">
+    <value>اللوحة الافتراضية:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiOut" xml:space="preserve">
+    <value>خروج MIDI للعملية:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiIn" xml:space="preserve">
+    <value>دخول MIDI للعملية:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxAutoSwitch" xml:space="preserve">
+    <value>تبديل تلقائي (للمحترفين!)</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchInterval" xml:space="preserve">
+    <value>فحص التبديل التلقائي:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchDebounce" xml:space="preserve">
+    <value>تأخير التبديل التلقائي:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonOK" xml:space="preserve">
+    <value>حفظ</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_FormTitle" xml:space="preserve">
+    <value>تعديل الإعدادات العامة</value>
+    <comment>GlobalEditorSettings form title</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxButtons" xml:space="preserve">
+    <value>إعدادات لوحة الأزرار الرئيسية</value>
+    <comment>ButtonEditorSettings group box</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonWidth" xml:space="preserve">
+    <value>عرض الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonHeight" xml:space="preserve">
+    <value>ارتفاع الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonGap" xml:space="preserve">
+    <value>الفجوة بين الأزرار:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelBackgroundColour" xml:space="preserve">
+    <value>الخلفية:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonBorder" xml:space="preserve">
+    <value>حد الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontName" xml:space="preserve">
+    <value>خط الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonFontNamePick" xml:space="preserve">
+    <value>اختيار...</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontSize" xml:space="preserve">
+    <value>حجم خط الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelTopMargin" xml:space="preserve">
+    <value>الهامش العلوي:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelLeftMargin" xml:space="preserve">
+    <value>الهامش الأيسر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxUserCollapse" xml:space="preserve">
+    <value>تصميم زر التحكم القابل للطي</value>
+    <comment>ButtonEditorSettings group box</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonWidth" xml:space="preserve">
+    <value>عرض الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonHeight" xml:space="preserve">
+    <value>ارتفاع الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonColour" xml:space="preserve">
+    <value>لون الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCBackgroundColour" xml:space="preserve">
+    <value>الخلفية:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonBorder" xml:space="preserve">
+    <value>حد الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontName" xml:space="preserve">
+    <value>خط الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_UCButtonFontNamePick" xml:space="preserve">
+    <value>اختيار...</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontSize" xml:space="preserve">
+    <value>حجم خط الزر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCTopMargin" xml:space="preserve">
+    <value>الهامش العلوي:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCLeftMargin" xml:space="preserve">
+    <value>الهامش الأيسر:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_CopyColorMenuItem" xml:space="preserve">
+    <value>نسخ اللون</value>
+    <comment>ButtonEditorSettings menu item</comment>
+  </data>
+  <data name="ButtonEditorSettings_PasteColorMenuItem" xml:space="preserve">
+    <value>لصق اللون</value>
+    <comment>ButtonEditorSettings menu item</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonSave" xml:space="preserve">
+    <value>حفظ</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_FormTitle" xml:space="preserve">
+    <value>تعديل إعدادات لوحة الأزرار</value>
+    <comment>ButtonEditorSettings form title</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelLanguage" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="GlobalEditorSettings_LabelFallbackPanel" xml:space="preserve">
+    <value>لوحة احتياطية</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedMessage" xml:space="preserve">
+    <value>سيتم استخدام اللغة الجديدة بعد إعادة تشغيل التطبيق</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedTitle" xml:space="preserve">
+    <value>تم تغيير اللغة</value>
+  </data>
+  <data name="MenuMakeCollapsibleHidesTitleBar" xml:space="preserve">
+    <value>!جعلها قابلة للطي</value>
+  </data>
+  <data name="DialogSendKeyFailed" xml:space="preserve">
+    <value>فشل في إرسال تسلسل المفاتيح:\n{0}</value>
+  </data>
+  <data name="MenuViewPdfManual" xml:space="preserve">
+    <value>عرض دليل PDF</value>
+  </data>
+  <data name="DialogPdfManualNotFound" xml:space="preserve">
+    <value>لم يتم العثور على دليل PDF!</value>
+  </data>
+  <data name="KeyStringEntryForm_Title" xml:space="preserve">
+    <value>تحرير سلسلة المفاتيح</value>
+  </data>
+</root>

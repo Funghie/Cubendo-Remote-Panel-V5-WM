@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MenuAlwaysOnTop" xml:space="preserve">
+    <value>อยู่ด้านบนเสมอ</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuShowTitleBar" xml:space="preserve">
+    <value>แสดงแถบชื่อเรื่อง</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuShowStatus" xml:space="preserve">
+    <value>แสดงสถานะ</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuDisplaySectionHeaders" xml:space="preserve">
+    <value>แสดงหัวข้อส่วน</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuPanelTransparency" xml:space="preserve">
+    <value>ความโปร่งใสของแผง</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuAutoSwitch" xml:space="preserve">
+    <value>สลับอัตโนมัติ</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuMakeCollapsible" xml:space="preserve">
+    <value>ทำให้ยุบได้</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuSelectButtonPanel" xml:space="preserve">
+    <value>เลือกแผงปุ่ม</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuRefreshCurrentPanel" xml:space="preserve">
+    <value>รีเฟรชแผงปัจจุบัน</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuCreateNewButtonPanel" xml:space="preserve">
+    <value>สร้างแผงปุ่มใหม่</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuEditButtonFile" xml:space="preserve">
+    <value>แก้ไขไฟล์ปุ่ม</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuEditPanelSettings" xml:space="preserve">
+    <value>แก้ไขการตั้งค่าแผง</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuEditGlobalSettings" xml:space="preserve">
+    <value>แก้ไขการตั้งค่าทั่วไป</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuMovePanelToCentre" xml:space="preserve">
+    <value>ย้ายแผงไปตรงกลาง</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuShowMidiInFromHost" xml:space="preserve">
+    <value>แสดง MIDI In จากโฮสต์</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuViewReadme" xml:space="preserve">
+    <value>ดู README</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>เกี่ยวกับ CRP เวอร์ชัน {0}</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>ออก</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuCopyColour" xml:space="preserve">
+    <value>คัดลอกสี</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="MenuPasteColour" xml:space="preserve">
+    <value>วางสี</value>
+    <comment>Main Form1 menu item</comment>
+  </data>
+  <data name="TrayShowHide" xml:space="preserve">
+    <value>แสดง / ซ่อน</value>
+    <comment>Tray menu item</comment>
+  </data>
+  <data name="TrayExitApplication" xml:space="preserve">
+    <value>ออกจากแอปพลิเคชัน</value>
+    <comment>Tray menu item</comment>
+  </data>
+  <data name="DialogLoopMidiNotRunning" xml:space="preserve">
+    <value>ไม่พบพอร์ต MIDI เริ่มต้นจากไฟล์ ini\n\nต้องการดำเนินการต่อโดยไม่ใช้ฟังก์ชัน MIDI หรือไม่?\n\nคุณจะต้องเริ่มแอปพลิเคชันใหม่เพื่อใช้งาน MIDI</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogMidiDeviceNotFound" xml:space="preserve">
+    <value>ไม่พบอุปกรณ์ MIDI</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogDefaultButtonsMissing" xml:space="preserve">
+    <value>ไม่พบไฟล์ buttons.txt เริ่มต้น!\n\nโปรดติดตั้งแอปใหม่หรือกู้คืนไฟล์ที่หายไป</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogPanelFileMissing" xml:space="preserve">
+    <value>ไม่พบไฟล์แผง</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogNoButtonPanelFilesFound" xml:space="preserve">
+    <value>ไม่พบไฟล์แผงปุ่ม</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogChooseButtonPanel" xml:space="preserve">
+    <value>เลือกแผงปุ่ม</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogSelectButtonPanel" xml:space="preserve">
+    <value>เลือกแผงปุ่ม:</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+    <comment>Dialog button</comment>
+  </data>
+  <data name="DialogEnterNewPanelName" xml:space="preserve">
+    <value>กรอกชื่อแผงใหม่:</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCreateNewButtonPanel" xml:space="preserve">
+    <value>สร้างแผงปุ่มใหม่</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogMyPanel" xml:space="preserve">
+    <value>แผงของฉัน</value>
+    <comment>Dialog default panel name</comment>
+  </data>
+  <data name="DialogFileExists" xml:space="preserve">
+    <value>ไฟล์แผงมีอยู่แล้ว:\n{0}\n{1}\nเขียนทับหรือไม่?</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogPanelCreated" xml:space="preserve">
+    <value>สร้างแผงปุ่มใหม่แล้ว:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogIniFileNotFound" xml:space="preserve">
+    <value>ไม่พบไฟล์ Ini</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogError" xml:space="preserve">
+    <value>ข้อผิดพลาด</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonIniEditor" xml:space="preserve">
+    <value>ไม่สามารถเปิดตัวแก้ไข Button INI:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogSettingsIniFileNotFound" xml:space="preserve">
+    <value>ไม่พบไฟล์ settings.ini</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCouldNotOpenGlobalSettingsEditor" xml:space="preserve">
+    <value>ไม่สามารถเปิดตัวแก้ไขการตั้งค่าทั่วไป:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogButtonFileNotFound" xml:space="preserve">
+    <value>ไม่พบไฟล์ปุ่ม</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonFile" xml:space="preserve">
+    <value>ไม่สามารถเปิดไฟล์ปุ่ม:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogWindowTransparency" xml:space="preserve">
+    <value>ความโปร่งใสของหน้าต่าง</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogOK" xml:space="preserve">
+    <value>ตกลง</value>
+    <comment>Dialog button</comment>
+  </data>
+  <data name="DialogCancelButton" xml:space="preserve">
+    <value>ยกเลิก</value>
+    <comment>Dialog button</comment>
+  </data>
+  <data name="DialogSectionHeaderId" xml:space="preserve">
+    <value>รหัสหัวข้อส่วน#{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogName" xml:space="preserve">
+    <value>ชื่อ:</value>
+    <comment>Dialog label</comment>
+  </data>
+  <data name="DialogColour" xml:space="preserve">
+    <value>สี:</value>
+    <comment>Dialog label</comment>
+  </data>
+  <data name="DialogSectionNameCannotBeEmpty" xml:space="preserve">
+    <value>ชื่อส่วนต้องไม่ว่างเปล่า</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogValidation" xml:space="preserve">
+    <value>การตรวจสอบ</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogPleaseEnterValidColor" xml:space="preserve">
+    <value>กรุณากรอกชื่อสีที่ถูกต้อง (เช่น แดง) หรือรหัสสี (เช่น #ff0000)</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogReadmeNotFound" xml:space="preserve">
+    <value>ไม่พบ README.txt</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogFailedToSendKeySequence" xml:space="preserve">
+    <value>ส่งลำดับคีย์ไม่สำเร็จ:\n{0}</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogDeleteNotAllowed" xml:space="preserve">
+    <value>ไม่อนุญาตให้ลบ</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogAtLeastOneButtonMustRemain" xml:space="preserve">
+    <value>ต้องมีปุ่มอย่างน้อยหนึ่งปุ่ม</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogSettingsSaved" xml:space="preserve">
+    <value>บันทึกการตั้งค่าสำเร็จ</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogSettingsSaveError" xml:space="preserve">
+    <value>ไม่สามารถบันทึกการตั้งค่า กรุณาตรวจสอบสิทธิ์ไฟล์</value>
+    <comment>Dialog error</comment>
+  </data>
+  <data name="DialogConfirmDeleteProcess" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าต้องการลบกระบวนการนี้?</value>
+    <comment>Dialog confirmation</comment>
+  </data>
+  <data name="DialogProcessAdded" xml:space="preserve">
+    <value>เพิ่มกระบวนการใหม่แล้ว</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogProcessDeleted" xml:space="preserve">
+    <value>ลบกระบวนการแล้ว</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogInvalidProcessName" xml:space="preserve">
+    <value>ชื่อกระบวนการต้องไม่ว่างเปล่า</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogInvalidPanelFile" xml:space="preserve">
+    <value>ชื่อไฟล์แผงไม่ถูกต้องหรือไม่มี</value>
+    <comment>Dialog validation</comment>
+  </data>
+  <data name="DialogColorCopySuccess" xml:space="preserve">
+    <value>คัดลอกสีไปยังคลิปบอร์ดแล้ว</value>
+    <comment>Dialog message</comment>
+  </data>
+  <data name="DialogColorPasteError" xml:space="preserve">
+    <value>คลิปบอร์ดไม่มีค่าสีที่ถูกต้อง</value>
+    <comment>Dialog error</comment>
+  </data>
+  <data name="DialogSettingsLoadError" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดในการโหลดการตั้งค่า อาจไม่มีค่าบางอย่าง</value>
+    <comment>Dialog error</comment>
+  </data>
+  <data name="StatusActiveDaw" xml:space="preserve">
+    <value>DAW ที่ใช้งาน: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="StatusMidiOut" xml:space="preserve">
+    <value>MIDI Out: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="StatusMidiIn" xml:space="preserve">
+    <value>MIDI In: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="StatusAOT" xml:space="preserve">
+    <value>AOT: {0}</value>
+    <comment>Status bar</comment>
+  </data>
+  <data name="ContextMenuChannel" xml:space="preserve">
+    <value>ช่อง: {0}</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuNoteValue" xml:space="preserve">
+    <value>ค่าบันทึก</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuCCValue" xml:space="preserve">
+    <value>ค่า CC</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuValueDown" xml:space="preserve">
+    <value>{0} ลง: {1}</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="ContextMenuValueUp" xml:space="preserve">
+    <value>{0} ขึ้น: {1}</value>
+    <comment>Context menu</comment>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>CN Remote {0} : {1}</value>
+    <comment>Main Form1 title</comment>
+  </data>
+  <data name="EditMidiActionForm_Title" xml:space="preserve">
+    <value>แก้ไขการกระทำของปุ่ม</value>
+    <comment>EditMidiActionForm title</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveLeft" xml:space="preserve">
+    <value>ย้ายไปทางซ้าย</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveRight" xml:space="preserve">
+    <value>ย้ายไปทางขวา</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Name" xml:space="preserve">
+    <value>ชื่อ:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Tooltip" xml:space="preserve">
+    <value>คำแนะนำ:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Channel" xml:space="preserve">
+    <value>ช่อง:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Type" xml:space="preserve">
+    <value>ประเภท:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Value" xml:space="preserve">
+    <value>ค่า:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Press" xml:space="preserve">
+    <value>กด:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Release" xml:space="preserve">
+    <value>ปล่อย:</value>
+    <comment>EditMidiActionForm label</comment>
+  </data>
+  <data name="EditMidiActionForm_Add" xml:space="preserve">
+    <value>เพิ่ม</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Delete" xml:space="preserve">
+    <value>ลบ</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Save" xml:space="preserve">
+    <value>บันทึก</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddTitle" xml:space="preserve">
+    <value>ยืนยันการเพิ่ม</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddText" xml:space="preserve">
+    <value>เพิ่มปุ่มใหม่:
+ชื่อ: {0}
+คำแนะนำ: {1}
+ช่อง: {2}
+ประเภท: {3}
+{4}
+ค่าขณะกด: {5}
+ค่าขณะปล่อย: {6}
+
+ดำเนินการต่อหรือไม่?</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteTitle" xml:space="preserve">
+    <value>ยืนยันการลบ</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteText" xml:space="preserve">
+    <value>ลบปุ่มนี้
+คุณแน่ใจหรือไม่?</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgTitle" xml:space="preserve">
+    <value>บันทึก</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgText" xml:space="preserve">
+    <value>บันทึกปุ่มแล้ว</value>
+    <comment>EditMidiActionForm dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_MouseUpX" xml:space="preserve">
+    <value>X</value>
+    <comment>EditMidiActionForm button</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameLabel" xml:space="preserve">
+    <value>ชื่อปุ่ม (แสดงบนแผง)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameTextBox" xml:space="preserve">
+    <value>กรอกชื่อที่จะแสดงบนปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipLabel" xml:space="preserve">
+    <value>ข้อความคำแนะนำ (แสดงเมื่อชี้)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipTextBox" xml:space="preserve">
+    <value>คำแนะนำสำหรับปุ่มนี้
+หากต้องการขึ้นบรรทัดใหม่
+ใช้ backslash + n</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelLabel" xml:space="preserve">
+    <value>ช่อง MIDI (1-16)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelNumeric" xml:space="preserve">
+    <value>ช่อง MIDI (1-16)</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeLabel" xml:space="preserve">
+    <value>CC, Note หรือ Key</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeComboBox" xml:space="preserve">
+    <value>CC, Note หรือ Key</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueLabel" xml:space="preserve">
+    <value>ค่า CC
+หมายเลขโน้ต
+คำสั่งคีย์</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumeric" xml:space="preserve">
+    <value>ค่า CC
+หมายเลขโน้ต</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_KeyStringTextBox" xml:space="preserve">
+    <value>คำสั่งคีย์
+ใช้ "+" เพื่อเพิ่มหลายคีย์</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressLabel" xml:space="preserve">
+    <value>ค่าที่ส่งเมื่อกดปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumeric" xml:space="preserve">
+    <value>ค่าที่ส่งเมื่อกดปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseLabel" xml:space="preserve">
+    <value>ค่าที่ส่งเมื่อปล่อยปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumeric" xml:space="preserve">
+    <value>ค่าที่ส่งเมื่อปล่อยปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MouseUpXLabel" xml:space="preserve">
+    <value>ล้างค่าปล่อยปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveLeftButton" xml:space="preserve">
+    <value>ย้ายปุ่มนี้ไปทางซ้าย</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveRightButton" xml:space="preserve">
+    <value>ย้ายปุ่มนี้ไปทางขวา</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_AddButton" xml:space="preserve">
+    <value>เพิ่มปุ่มใหม่ด้วยการตั้งค่านี้</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_DeleteButton" xml:space="preserve">
+    <value>ลบปุ่มนี้</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_SaveButton" xml:space="preserve">
+    <value>บันทึกการเปลี่ยนแปลงของปุ่มนี้</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_CancelButton" xml:space="preserve">
+    <value>ยกเลิกและปิดหน้าต่างนี้</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumericText" xml:space="preserve">
+    <value>ค่า CC หรือโน้ต หรือคีย์ลัด</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumericText" xml:space="preserve">
+    <value>ค่าที่ส่งเมื่อกดปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumericText" xml:space="preserve">
+    <value>ค่าที่ส่งเมื่อปล่อยปุ่ม</value>
+    <comment>EditMidiActionForm tooltip</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiPorts" xml:space="preserve">
+    <value>พอร์ต MIDI เริ่มต้น</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiOut" xml:space="preserve">
+    <value>แผง MIDI ขาออก</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiIn" xml:space="preserve">
+    <value>แผง MIDI ขาเข้า</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiActivity" xml:space="preserve">
+    <value>ปุ่มกิจกรรม MIDI</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelMidiInColour" xml:space="preserve">
+    <value>สีกิจกรรม MIDI In:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowDown" xml:space="preserve">
+    <value>สีเรืองแสงเมื่อกดปุ่ม:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowUp" xml:space="preserve">
+    <value>สีเรืองแสงเมื่อปล่อยปุ่ม:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxTooltips" xml:space="preserve">
+    <value>การตั้งค่าคำแนะนำ</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipBack" xml:space="preserve">
+    <value>พื้นหลังคำแนะนำ:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipText" xml:space="preserve">
+    <value>ข้อความคำแนะนำ:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxProcesses" xml:space="preserve">
+    <value>กระบวนการ</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonAddProcess" xml:space="preserve">
+    <value>เพิ่ม</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonDeleteProcess" xml:space="preserve">
+    <value>ลบ</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessName" xml:space="preserve">
+    <value>ชื่อกระบวนการ:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanel" xml:space="preserve">
+    <value>แผงเริ่มต้น:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiOut" xml:space="preserve">
+    <value>กระบวนการ MIDI ขาออก</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiIn" xml:space="preserve">
+    <value>กระบวนการ MIDI ขาเข้า</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxAutoSwitch" xml:space="preserve">
+    <value>สลับอัตโนมัติ (ขั้นสูง!)</value>
+    <comment>GlobalEditorSettings group box</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchInterval" xml:space="preserve">
+    <value>ตรวจสอบการสลับอัตโนมัติ:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchDebounce" xml:space="preserve">
+    <value>ดีบาวน์การสลับอัตโนมัติ:</value>
+    <comment>GlobalEditorSettings label</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonOK" xml:space="preserve">
+    <value>บันทึก</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+    <comment>GlobalEditorSettings button</comment>
+  </data>
+  <data name="GlobalEditorSettings_FormTitle" xml:space="preserve">
+    <value>แก้ไขการตั้งค่าทั่วไป</value>
+    <comment>GlobalEditorSettings form title</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxButtons" xml:space="preserve">
+    <value>การตั้งค่าแผงปุ่มหลัก</value>
+    <comment>ButtonEditorSettings group box</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonWidth" xml:space="preserve">
+    <value>ความกว้างของปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonHeight" xml:space="preserve">
+    <value>ความสูงของปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonGap" xml:space="preserve">
+    <value>ช่องว่างระหว่างปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelBackgroundColour" xml:space="preserve">
+    <value>พื้นหลัง:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonBorder" xml:space="preserve">
+    <value>ขอบปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontName" xml:space="preserve">
+    <value>ฟอนต์ปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonFontNamePick" xml:space="preserve">
+    <value>เลือก...</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontSize" xml:space="preserve">
+    <value>ขนาดฟอนต์ปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelTopMargin" xml:space="preserve">
+    <value>ระยะขอบบน:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelLeftMargin" xml:space="preserve">
+    <value>ระยะขอบซ้าย:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxUserCollapse" xml:space="preserve">
+    <value>การออกแบบปุ่มควบคุมแบบยุบได้</value>
+    <comment>ButtonEditorSettings group box</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonWidth" xml:space="preserve">
+    <value>ความกว้างของปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonHeight" xml:space="preserve">
+    <value>ความสูงของปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonColour" xml:space="preserve">
+    <value>สีของปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCBackgroundColour" xml:space="preserve">
+    <value>พื้นหลัง:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonBorder" xml:space="preserve">
+    <value>ขอบปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontName" xml:space="preserve">
+    <value>ฟอนต์ปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_UCButtonFontNamePick" xml:space="preserve">
+    <value>เลือก...</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontSize" xml:space="preserve">
+    <value>ขนาดฟอนต์ปุ่ม:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCTopMargin" xml:space="preserve">
+    <value>ระยะขอบบน:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCLeftMargin" xml:space="preserve">
+    <value>ระยะขอบซ้าย:</value>
+    <comment>ButtonEditorSettings label</comment>
+  </data>
+  <data name="ButtonEditorSettings_CopyColorMenuItem" xml:space="preserve">
+    <value>คัดลอกสี</value>
+    <comment>ButtonEditorSettings menu item</comment>
+  </data>
+  <data name="ButtonEditorSettings_PasteColorMenuItem" xml:space="preserve">
+    <value>วางสี</value>
+    <comment>ButtonEditorSettings menu item</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonSave" xml:space="preserve">
+    <value>บันทึก</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+    <comment>ButtonEditorSettings button</comment>
+  </data>
+  <data name="ButtonEditorSettings_FormTitle" xml:space="preserve">
+    <value>แก้ไขการตั้งค่าแผงปุ่ม</value>
+    <comment>ButtonEditorSettings form title</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelLanguage" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="GlobalEditorSettings_LabelFallbackPanel" xml:space="preserve">
+    <value>แผงสำรอง</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedMessage" xml:space="preserve">
+    <value>ภาษาจะเปลี่ยนหลังจากรีสตาร์ทแอปพลิเคชัน</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedTitle" xml:space="preserve">
+    <value>เปลี่ยนภาษาแล้ว</value>
+  </data>
+  <data name="MenuMakeCollapsibleHidesTitleBar" xml:space="preserve">
+    <value>ทำให้ยุบได้!</value>
+  </data>
+  <data name="DialogSendKeyFailed" xml:space="preserve">
+    <value>ไม่สามารถส่งลำดับปุ่มกดได้:\n{0}</value>
+  </data>
+  <data name="MenuViewPdfManual" xml:space="preserve">
+    <value>ดูคู่มือ PDF</value>
+  </data>
+  <data name="DialogPdfManualNotFound" xml:space="preserve">
+    <value>ไม่พบคู่มือ PDF!</value>
+  </data>
+  <data name="KeyStringEntryForm_Title" xml:space="preserve">
+    <value>แก้ไขชุดคีย์</value>
+  </data>
+</root>

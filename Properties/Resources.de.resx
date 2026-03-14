@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MenuAlwaysOnTop" xml:space="preserve">
+    <value>Immer im Vordergrund</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuShowTitleBar" xml:space="preserve">
+    <value>Titelleiste anzeigen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuShowStatus" xml:space="preserve">
+    <value>Status anzeigen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuDisplaySectionHeaders" xml:space="preserve">
+    <value>Abschnittsüberschriften anzeigen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuPanelTransparency" xml:space="preserve">
+    <value>Panel-Transparenz</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuAutoSwitch" xml:space="preserve">
+    <value>Automatischer Wechsel</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuMakeCollapsible" xml:space="preserve">
+    <value>Zusammenklappbar machen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuSelectButtonPanel" xml:space="preserve">
+    <value>Button-Panel auswählen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuRefreshCurrentPanel" xml:space="preserve">
+    <value>Aktuelles Panel aktualisieren</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuCreateNewButtonPanel" xml:space="preserve">
+    <value>Neues Button-Panel erstellen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuEditButtonFile" xml:space="preserve">
+    <value>Button-Datei bearbeiten</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuEditPanelSettings" xml:space="preserve">
+    <value>Panel-Einstellungen bearbeiten</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuEditGlobalSettings" xml:space="preserve">
+    <value>Globale Einstellungen bearbeiten</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuMovePanelToCentre" xml:space="preserve">
+    <value>Panel in die Mitte verschieben</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuShowMidiInFromHost" xml:space="preserve">
+    <value>MIDI-Eingang vom Host anzeigen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuViewReadme" xml:space="preserve">
+    <value>README anzeigen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>Über CRP Version {0}</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>Beenden</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuCopyColour" xml:space="preserve">
+    <value>Farbe kopieren</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="MenuPasteColour" xml:space="preserve">
+    <value>Farbe einfügen</value>
+    <comment>Menüpunkt Hauptformular Form1</comment>
+  </data>
+  <data name="TrayShowHide" xml:space="preserve">
+    <value>Anzeigen / Verbergen</value>
+    <comment>Tray-Menüpunkt</comment>
+  </data>
+  <data name="TrayExitApplication" xml:space="preserve">
+    <value>Anwendung beenden</value>
+    <comment>Tray-Menüpunkt</comment>
+  </data>
+  <data name="DialogLoopMidiNotRunning" xml:space="preserve">
+    <value>Der Standard-MIDI-Port aus Ihrer INI-Datei wurde nicht gefunden.\n\nOhne MIDI-Funktion fortfahren?\n\nSie müssen die App neu starten, um MIDI verwenden zu können.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogMidiDeviceNotFound" xml:space="preserve">
+    <value>MIDI-Gerät nicht gefunden</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogDefaultButtonsMissing" xml:space="preserve">
+    <value>Die Datei default buttons.txt wurde nicht gefunden!\n\nBitte installieren Sie die Anwendung neu oder stellen Sie die fehlende Datei wieder her.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogPanelFileMissing" xml:space="preserve">
+    <value>Panel-Datei fehlt</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogNoButtonPanelFilesFound" xml:space="preserve">
+    <value>Keine Button-Panel-Dateien gefunden.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogChooseButtonPanel" xml:space="preserve">
+    <value>Button-Panel auswählen</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogSelectButtonPanel" xml:space="preserve">
+    <value>Button-Panel auswählen:</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Dialog-Schaltfläche</comment>
+  </data>
+  <data name="DialogEnterNewPanelName" xml:space="preserve">
+    <value>Neuen Panel-Namen eingeben:</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogCreateNewButtonPanel" xml:space="preserve">
+    <value>Neues Button-Panel erstellen</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogMyPanel" xml:space="preserve">
+    <value>mein Panel</value>
+    <comment>Standardname für Panel im Dialog</comment>
+  </data>
+  <data name="DialogFileExists" xml:space="preserve">
+    <value>Panel-Dateien existieren bereits:\n{0}\n{1}\nÜberschreiben?</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogPanelCreated" xml:space="preserve">
+    <value>Neues Button-Panel erstellt:\n{0}</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogIniFileNotFound" xml:space="preserve">
+    <value>Ini-Datei nicht gefunden.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogError" xml:space="preserve">
+    <value>Fehler</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonIniEditor" xml:space="preserve">
+    <value>Konnte Button-INI-Editor nicht öffnen:\n{0}</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogSettingsIniFileNotFound" xml:space="preserve">
+    <value>settings.ini-Datei nicht gefunden.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogCouldNotOpenGlobalSettingsEditor" xml:space="preserve">
+    <value>Konnte Editor für globale Einstellungen nicht öffnen:\n{0}</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogButtonFileNotFound" xml:space="preserve">
+    <value>Button-Datei nicht gefunden.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonFile" xml:space="preserve">
+    <value>Konnte Button-Datei nicht öffnen:\n{0}</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogWindowTransparency" xml:space="preserve">
+    <value>Fenstertransparenz</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogOK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Dialog-Schaltfläche</comment>
+  </data>
+  <data name="DialogCancelButton" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Dialog-Schaltfläche</comment>
+  </data>
+  <data name="DialogSectionHeaderId" xml:space="preserve">
+    <value>Abschnittsüberschrift ID#{0}</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogName" xml:space="preserve">
+    <value>Name:</value>
+    <comment>Dialog-Label</comment>
+  </data>
+  <data name="DialogColour" xml:space="preserve">
+    <value>Farbe:</value>
+    <comment>Dialog-Label</comment>
+  </data>
+  <data name="DialogSectionNameCannotBeEmpty" xml:space="preserve">
+    <value>Abschnittsname darf nicht leer sein.</value>
+    <comment>Dialogvalidierung</comment>
+  </data>
+  <data name="DialogValidation" xml:space="preserve">
+    <value>Validierung</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogPleaseEnterValidColor" xml:space="preserve">
+    <value>Bitte geben Sie einen gültigen Farbnamen (z.B. Rot) oder Hex-Code (z.B. #ff0000) ein.</value>
+    <comment>Dialogvalidierung</comment>
+  </data>
+  <data name="DialogReadmeNotFound" xml:space="preserve">
+    <value>README.txt nicht gefunden.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogFailedToSendKeySequence" xml:space="preserve">
+    <value>Senden der Tastenkombination fehlgeschlagen:\n{0}</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogDeleteNotAllowed" xml:space="preserve">
+    <value>Löschen nicht erlaubt</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogAtLeastOneButtonMustRemain" xml:space="preserve">
+    <value>Mindestens ein Button muss verbleiben.</value>
+    <comment>Dialogvalidierung</comment>
+  </data>
+  <data name="DialogSettingsSaved" xml:space="preserve">
+    <value>Einstellungen erfolgreich gespeichert.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogSettingsSaveError" xml:space="preserve">
+    <value>Konnte Einstellungen nicht speichern. Bitte Dateiberechtigungen prüfen.</value>
+    <comment>Dialogfehler</comment>
+  </data>
+  <data name="DialogConfirmDeleteProcess" xml:space="preserve">
+    <value>Möchten Sie diesen Prozess wirklich löschen?</value>
+    <comment>Dialogbestätigung</comment>
+  </data>
+  <data name="DialogProcessAdded" xml:space="preserve">
+    <value>Neuer Prozess hinzugefügt.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogProcessDeleted" xml:space="preserve">
+    <value>Prozess gelöscht.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogInvalidProcessName" xml:space="preserve">
+    <value>Prozessname darf nicht leer sein.</value>
+    <comment>Dialogvalidierung</comment>
+  </data>
+  <data name="DialogInvalidPanelFile" xml:space="preserve">
+    <value>Panel-Dateiname ist ungültig oder fehlt.</value>
+    <comment>Dialogvalidierung</comment>
+  </data>
+  <data name="DialogColorCopySuccess" xml:space="preserve">
+    <value>Farbe in die Zwischenablage kopiert.</value>
+    <comment>Dialognachricht</comment>
+  </data>
+  <data name="DialogColorPasteError" xml:space="preserve">
+    <value>Zwischenablage enthält keinen gültigen Farbwert.</value>
+    <comment>Dialogfehler</comment>
+  </data>
+  <data name="DialogSettingsLoadError" xml:space="preserve">
+    <value>Fehler beim Laden der Einstellungen. Einige Werte sind möglicherweise nicht verfügbar.</value>
+    <comment>Dialogfehler</comment>
+  </data>
+  <data name="StatusActiveDaw" xml:space="preserve">
+    <value>Aktive DAW: {0}</value>
+    <comment>Statusleiste</comment>
+  </data>
+  <data name="StatusMidiOut" xml:space="preserve">
+    <value>MIDI-Ausgang: {0}</value>
+    <comment>Statusleiste</comment>
+  </data>
+  <data name="StatusMidiIn" xml:space="preserve">
+    <value>MIDI-Eingang: {0}</value>
+    <comment>Statusleiste</comment>
+  </data>
+  <data name="StatusAOT" xml:space="preserve">
+    <value>AOT: {0}</value>
+    <comment>Statusleiste</comment>
+  </data>
+  <data name="ContextMenuChannel" xml:space="preserve">
+    <value>Kanal: {0}</value>
+    <comment>Kontextmenü</comment>
+  </data>
+  <data name="ContextMenuNoteValue" xml:space="preserve">
+    <value>Notenwert</value>
+    <comment>Kontextmenü</comment>
+  </data>
+  <data name="ContextMenuCCValue" xml:space="preserve">
+    <value>CC-Wert</value>
+    <comment>Kontextmenü</comment>
+  </data>
+  <data name="ContextMenuValueDown" xml:space="preserve">
+    <value>{0} Abwärts: {1}</value>
+    <comment>Kontextmenü</comment>
+  </data>
+  <data name="ContextMenuValueUp" xml:space="preserve">
+    <value>{0} Aufwärts: {1}</value>
+    <comment>Kontextmenü</comment>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>CN Remote {0} : {1}</value>
+    <comment>Titel Hauptformular Form1</comment>
+  </data>
+  <data name="EditMidiActionForm_Title" xml:space="preserve">
+    <value>Button-Aktion bearbeiten</value>
+    <comment>EditMidiActionForm Titel</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveLeft" xml:space="preserve">
+    <value>Nach links verschieben</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveRight" xml:space="preserve">
+    <value>Nach rechts verschieben</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_Name" xml:space="preserve">
+    <value>Name:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Tooltip" xml:space="preserve">
+    <value>Tooltip:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Channel" xml:space="preserve">
+    <value>Kanal:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Type" xml:space="preserve">
+    <value>Typ:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Value" xml:space="preserve">
+    <value>Wert:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Press" xml:space="preserve">
+    <value>Drücken:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Release" xml:space="preserve">
+    <value>Loslassen:</value>
+    <comment>EditMidiActionForm Label</comment>
+  </data>
+  <data name="EditMidiActionForm_Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_Delete" xml:space="preserve">
+    <value>Löschen</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_Save" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddTitle" xml:space="preserve">
+    <value>Hinzufügen bestätigen</value>
+    <comment>EditMidiActionForm Dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddText" xml:space="preserve">
+    <value>Neuen Button hinzufügen:
+Name: {0}
+Tooltip: {1}
+Kanal: {2}
+Typ: {3}
+{4}
+Abwärtswert: {5}
+Aufwärtswert: {6}
+
+Fortfahren?</value>
+    <comment>EditMidiActionForm Dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Löschen bestätigen</value>
+    <comment>EditMidiActionForm Dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteText" xml:space="preserve">
+    <value>Diesen Button löschen.
+Sind Sie sicher?</value>
+    <comment>EditMidiActionForm Dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgTitle" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>EditMidiActionForm Dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgText" xml:space="preserve">
+    <value>Button gespeichert</value>
+    <comment>EditMidiActionForm Dialog</comment>
+  </data>
+  <data name="EditMidiActionForm_MouseUpX" xml:space="preserve">
+    <value>X</value>
+    <comment>EditMidiActionForm Schaltfläche</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameLabel" xml:space="preserve">
+    <value>Buttonname (wird im Panel angezeigt)</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameTextBox" xml:space="preserve">
+    <value>Geben Sie den Anzeigenamen des Buttons ein</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipLabel" xml:space="preserve">
+    <value>Tooltip-Text (wird beim Überfahren angezeigt)</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipTextBox" xml:space="preserve">
+    <value>Tooltip für diesen Button
+Für eine neue Zeile verwenden Sie
+Backslash + kleines n</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelLabel" xml:space="preserve">
+    <value>MIDI-Kanal (1-16)</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelNumeric" xml:space="preserve">
+    <value>MIDI-Kanal (1-16)</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeLabel" xml:space="preserve">
+    <value>CC, Note oder Taste</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeComboBox" xml:space="preserve">
+    <value>CC, Note oder Taste</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueLabel" xml:space="preserve">
+    <value>CC-Wert
+Notennummer
+Tastenkombination</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumeric" xml:space="preserve">
+    <value>CC-Wert
+Notennummer</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_KeyStringTextBox" xml:space="preserve">
+    <value>Tastenkombination
+Verwenden Sie "+" für mehrere Tasten</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressLabel" xml:space="preserve">
+    <value>Wert, der beim Drücken des Buttons gesendet wird</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumeric" xml:space="preserve">
+    <value>Wert, der beim Drücken des Buttons gesendet wird</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseLabel" xml:space="preserve">
+    <value>Wert, der beim Loslassen des Buttons gesendet wird</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumeric" xml:space="preserve">
+    <value>Wert, der beim Loslassen des Buttons gesendet wird</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MouseUpXLabel" xml:space="preserve">
+    <value>Button-Release-Wert löschen</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveLeftButton" xml:space="preserve">
+    <value>Diesen Button nach links verschieben</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveRightButton" xml:space="preserve">
+    <value>Diesen Button nach rechts verschieben</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_AddButton" xml:space="preserve">
+    <value>Neuen Button mit diesen Einstellungen hinzufügen</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_DeleteButton" xml:space="preserve">
+    <value>Diesen Button löschen</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_SaveButton" xml:space="preserve">
+    <value>Änderungen an diesem Button speichern</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_CancelButton" xml:space="preserve">
+    <value>Abbrechen und diesen Dialog schließen</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumericText" xml:space="preserve">
+    <value>CC- oder Notenwert, oder Hotkeys</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumericText" xml:space="preserve">
+    <value>Wert, der beim Drücken des Buttons gesendet wird</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumericText" xml:space="preserve">
+    <value>Wert, der beim Loslassen des Buttons gesendet wird</value>
+    <comment>EditMidiActionForm Tooltip</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiPorts" xml:space="preserve">
+    <value>Standard-MIDI-Ports</value>
+    <comment>GlobalEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiOut" xml:space="preserve">
+    <value>Panel MIDI-Ausgang:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiIn" xml:space="preserve">
+    <value>Panel MIDI-Eingang:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiActivity" xml:space="preserve">
+    <value>MIDI-Aktivitätsbuttons</value>
+    <comment>GlobalEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelMidiInColour" xml:space="preserve">
+    <value>MIDI-Eingangsaktivitätsfarbe:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowDown" xml:space="preserve">
+    <value>Button-Drücken-Glow-Farbe:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowUp" xml:space="preserve">
+    <value>Button-Loslassen-Glow-Farbe:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxTooltips" xml:space="preserve">
+    <value>Tooltip-Einstellungen</value>
+    <comment>GlobalEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipBack" xml:space="preserve">
+    <value>Tooltip-Hintergrund:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipText" xml:space="preserve">
+    <value>Tooltip-Text:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxProcesses" xml:space="preserve">
+    <value>Prozesse</value>
+    <comment>GlobalEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonAddProcess" xml:space="preserve">
+    <value>Hinzufügen</value>
+    <comment>GlobalEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonDeleteProcess" xml:space="preserve">
+    <value>Löschen</value>
+    <comment>GlobalEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessName" xml:space="preserve">
+    <value>Prozessname:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanel" xml:space="preserve">
+    <value>Standard-Panel:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiOut" xml:space="preserve">
+    <value>Prozess MIDI-Ausgang:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiIn" xml:space="preserve">
+    <value>Prozess MIDI-Eingang:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxAutoSwitch" xml:space="preserve">
+    <value>Automatischer Wechsel (Experte!)</value>
+    <comment>GlobalEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchInterval" xml:space="preserve">
+    <value>Automatischer Wechsel prüfen:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchDebounce" xml:space="preserve">
+    <value>Automatischer Wechsel Entprellung:</value>
+    <comment>GlobalEditorSettings Label</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonOK" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>GlobalEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>GlobalEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="GlobalEditorSettings_FormTitle" xml:space="preserve">
+    <value>Globale Einstellungen bearbeiten</value>
+    <comment>GlobalEditorSettings Form-Titel</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxButtons" xml:space="preserve">
+    <value>Haupt-Button-Panel-Einstellungen</value>
+    <comment>ButtonEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonWidth" xml:space="preserve">
+    <value>Button-Breite:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonHeight" xml:space="preserve">
+    <value>Button-Höhe:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonGap" xml:space="preserve">
+    <value>Button-Abstand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelBackgroundColour" xml:space="preserve">
+    <value>Hintergrund:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonBorder" xml:space="preserve">
+    <value>Button-Rand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontName" xml:space="preserve">
+    <value>Button-Schriftart:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonFontNamePick" xml:space="preserve">
+    <value>Auswählen...</value>
+    <comment>ButtonEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontSize" xml:space="preserve">
+    <value>Button-Schriftgröße:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelTopMargin" xml:space="preserve">
+    <value>Oberer Rand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelLeftMargin" xml:space="preserve">
+    <value>Linker Rand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxUserCollapse" xml:space="preserve">
+    <value>Design für zusammenklappbare Steuerungsbuttons</value>
+    <comment>ButtonEditorSettings Gruppenfeld</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonWidth" xml:space="preserve">
+    <value>Button-Breite:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonHeight" xml:space="preserve">
+    <value>Button-Höhe:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonColour" xml:space="preserve">
+    <value>Button-Farbe:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCBackgroundColour" xml:space="preserve">
+    <value>Hintergrund:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonBorder" xml:space="preserve">
+    <value>Button-Rand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontName" xml:space="preserve">
+    <value>Button-Schriftart:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_UCButtonFontNamePick" xml:space="preserve">
+    <value>Auswählen...</value>
+    <comment>ButtonEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontSize" xml:space="preserve">
+    <value>Button-Schriftgröße:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCTopMargin" xml:space="preserve">
+    <value>Oberer Rand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCLeftMargin" xml:space="preserve">
+    <value>Linker Rand:</value>
+    <comment>ButtonEditorSettings Label</comment>
+  </data>
+  <data name="ButtonEditorSettings_CopyColorMenuItem" xml:space="preserve">
+    <value>Farbe kopieren</value>
+    <comment>ButtonEditorSettings Menüpunkt</comment>
+  </data>
+  <data name="ButtonEditorSettings_PasteColorMenuItem" xml:space="preserve">
+    <value>Farbe einfügen</value>
+    <comment>ButtonEditorSettings Menüpunkt</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonSave" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>ButtonEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>ButtonEditorSettings Schaltfläche</comment>
+  </data>
+  <data name="ButtonEditorSettings_FormTitle" xml:space="preserve">
+    <value>Button-Panel-Einstellungen bearbeiten</value>
+    <comment>ButtonEditorSettings Form-Titel</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelLanguage" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="GlobalEditorSettings_LabelFallbackPanel" xml:space="preserve">
+    <value>Fallback-Panel</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedMessage" xml:space="preserve">
+    <value>Die neue Sprache wird nach dem Neustart der Anwendung verwendet.</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedTitle" xml:space="preserve">
+    <value>Sprache geändert</value>
+  </data>
+  <data name="MenuMakeCollapsibleHidesTitleBar" xml:space="preserve">
+    <value>Zusammenklappbar machen!</value>
+  </data>
+  <data name="DialogSendKeyFailed" xml:space="preserve">
+    <value>Senden der Tastenkombination fehlgeschlagen:\n{0}</value>
+  </data>
+  <data name="MenuViewPdfManual" xml:space="preserve">
+    <value>PDF-Handbuch anzeigen</value>
+  </data>
+  <data name="DialogPdfManualNotFound" xml:space="preserve">
+    <value>PDF-Handbuch nicht gefunden!</value>
+  </data>
+  <data name="KeyStringEntryForm_Title" xml:space="preserve">
+    <value>Tastenkette bearbeiten</value>
+  </data>
+</root>

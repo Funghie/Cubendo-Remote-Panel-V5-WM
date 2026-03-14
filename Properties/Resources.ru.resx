@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MenuAlwaysOnTop" xml:space="preserve">
+    <value>Всегда поверх</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuShowTitleBar" xml:space="preserve">
+    <value>Показать заголовок</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuShowStatus" xml:space="preserve">
+    <value>Показать статус</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuDisplaySectionHeaders" xml:space="preserve">
+    <value>Показать заголовки секций</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuPanelTransparency" xml:space="preserve">
+    <value>Прозрачность панели</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuAutoSwitch" xml:space="preserve">
+    <value>Автоматическое переключение</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuMakeCollapsible" xml:space="preserve">
+    <value>Сделать сворачиваемой</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuSelectButtonPanel" xml:space="preserve">
+    <value>Выбрать панель кнопок</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuRefreshCurrentPanel" xml:space="preserve">
+    <value>Обновить текущую панель</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuCreateNewButtonPanel" xml:space="preserve">
+    <value>Создать новую панель кнопок</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuEditButtonFile" xml:space="preserve">
+    <value>Редактировать файл кнопок</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuEditPanelSettings" xml:space="preserve">
+    <value>Редактировать настройки панели</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuEditGlobalSettings" xml:space="preserve">
+    <value>Редактировать глобальные настройки</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuMovePanelToCentre" xml:space="preserve">
+    <value>Переместить панель в центр</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuShowMidiInFromHost" xml:space="preserve">
+    <value>Показать MIDI вход от хоста</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuViewReadme" xml:space="preserve">
+    <value>Просмотреть README</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>О версии CRP {0}</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>Выход</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuCopyColour" xml:space="preserve">
+    <value>Копировать цвет</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="MenuPasteColour" xml:space="preserve">
+    <value>Вставить цвет</value>
+    <comment>Пункт меню главной формы Form1</comment>
+  </data>
+  <data name="TrayShowHide" xml:space="preserve">
+    <value>Показать / Скрыть</value>
+    <comment>Пункт меню трея</comment>
+  </data>
+  <data name="TrayExitApplication" xml:space="preserve">
+    <value>Выйти из приложения</value>
+    <comment>Пункт меню трея</comment>
+  </data>
+  <data name="DialogLoopMidiNotRunning" xml:space="preserve">
+    <value>MIDI-порт по умолчанию из файла ini не найден.\n\nПродолжить без функциональности MIDI?\n\nДля использования MIDI необходимо перезапустить приложение.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogMidiDeviceNotFound" xml:space="preserve">
+    <value>MIDI-устройство не найдено</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogDefaultButtonsMissing" xml:space="preserve">
+    <value>Не удается найти default buttons.txt!\n\nПереустановите приложение или восстановите отсутствующий файл.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogPanelFileMissing" xml:space="preserve">
+    <value>Файл панели отсутствует</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogNoButtonPanelFilesFound" xml:space="preserve">
+    <value>Файлы панелей кнопок не найдены.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogChooseButtonPanel" xml:space="preserve">
+    <value>Выберите панель кнопок</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogSelectButtonPanel" xml:space="preserve">
+    <value>Выберите панель кнопок:</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogCancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Кнопка диалога</comment>
+  </data>
+  <data name="DialogEnterNewPanelName" xml:space="preserve">
+    <value>Введите новое имя панели:</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogCreateNewButtonPanel" xml:space="preserve">
+    <value>Создать новую панель кнопок</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogMyPanel" xml:space="preserve">
+    <value>моя панель</value>
+    <comment>Имя панели по умолчанию</comment>
+  </data>
+  <data name="DialogFileExists" xml:space="preserve">
+    <value>Файлы панели уже существуют:\n{0}\n{1}\nПерезаписать?</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogPanelCreated" xml:space="preserve">
+    <value>Создана новая панель кнопок:\n{0}</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogIniFileNotFound" xml:space="preserve">
+    <value>Файл ini не найден.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogError" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonIniEditor" xml:space="preserve">
+    <value>Не удалось открыть редактор Button INI:\n{0}</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogSettingsIniFileNotFound" xml:space="preserve">
+    <value>Файл settings.ini не найден.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogCouldNotOpenGlobalSettingsEditor" xml:space="preserve">
+    <value>Не удалось открыть редактор глобальных настроек:\n{0}</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogButtonFileNotFound" xml:space="preserve">
+    <value>Файл кнопок не найден.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogCouldNotOpenButtonFile" xml:space="preserve">
+    <value>Не удалось открыть файл кнопок:\n{0}</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogWindowTransparency" xml:space="preserve">
+    <value>Прозрачность окна</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogOK" xml:space="preserve">
+    <value>ОК</value>
+    <comment>Кнопка диалога</comment>
+  </data>
+  <data name="DialogCancelButton" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Кнопка диалога</comment>
+  </data>
+  <data name="DialogSectionHeaderId" xml:space="preserve">
+    <value>ID заголовка секции#{0}</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogName" xml:space="preserve">
+    <value>Имя:</value>
+    <comment>Метка диалога</comment>
+  </data>
+  <data name="DialogColour" xml:space="preserve">
+    <value>Цвет:</value>
+    <comment>Метка диалога</comment>
+  </data>
+  <data name="DialogSectionNameCannotBeEmpty" xml:space="preserve">
+    <value>Имя секции не может быть пустым.</value>
+    <comment>Проверка диалога</comment>
+  </data>
+  <data name="DialogValidation" xml:space="preserve">
+    <value>Проверка</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogPleaseEnterValidColor" xml:space="preserve">
+    <value>Пожалуйста, введите корректное название цвета (например, Красный) или hex-код (например, #ff0000).</value>
+    <comment>Проверка диалога</comment>
+  </data>
+  <data name="DialogReadmeNotFound" xml:space="preserve">
+    <value>README.txt не найден.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogFailedToSendKeySequence" xml:space="preserve">
+    <value>Не удалось отправить последовательность клавиш:\n{0}</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogDeleteNotAllowed" xml:space="preserve">
+    <value>Удаление запрещено</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogAtLeastOneButtonMustRemain" xml:space="preserve">
+    <value>Должна остаться хотя бы одна кнопка.</value>
+    <comment>Проверка диалога</comment>
+  </data>
+  <data name="DialogSettingsSaved" xml:space="preserve">
+    <value>Настройки успешно сохранены.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogSettingsSaveError" xml:space="preserve">
+    <value>Не удалось сохранить настройки. Проверьте права доступа к файлу.</value>
+    <comment>Ошибка диалога</comment>
+  </data>
+  <data name="DialogConfirmDeleteProcess" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот процесс?</value>
+    <comment>Подтверждение диалога</comment>
+  </data>
+  <data name="DialogProcessAdded" xml:space="preserve">
+    <value>Новый процесс добавлен.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogProcessDeleted" xml:space="preserve">
+    <value>Процесс удалён.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogInvalidProcessName" xml:space="preserve">
+    <value>Имя процесса не может быть пустым.</value>
+    <comment>Проверка диалога</comment>
+  </data>
+  <data name="DialogInvalidPanelFile" xml:space="preserve">
+    <value>Имя файла панели недопустимо или отсутствует.</value>
+    <comment>Проверка диалога</comment>
+  </data>
+  <data name="DialogColorCopySuccess" xml:space="preserve">
+    <value>Цвет скопирован в буфер обмена.</value>
+    <comment>Сообщение диалога</comment>
+  </data>
+  <data name="DialogColorPasteError" xml:space="preserve">
+    <value>Буфер обмена не содержит корректного значения цвета.</value>
+    <comment>Ошибка диалога</comment>
+  </data>
+  <data name="DialogSettingsLoadError" xml:space="preserve">
+    <value>Ошибка загрузки настроек. Некоторые значения могут быть недоступны.</value>
+    <comment>Ошибка диалога</comment>
+  </data>
+  <data name="StatusActiveDaw" xml:space="preserve">
+    <value>Активная DAW: {0}</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="StatusMidiOut" xml:space="preserve">
+    <value>MIDI Выход: {0}</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="StatusMidiIn" xml:space="preserve">
+    <value>MIDI Вход: {0}</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="StatusAOT" xml:space="preserve">
+    <value>Всегда поверх: {0}</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="ContextMenuChannel" xml:space="preserve">
+    <value>Канал: {0}</value>
+    <comment>Контекстное меню</comment>
+  </data>
+  <data name="ContextMenuNoteValue" xml:space="preserve">
+    <value>Значение ноты</value>
+    <comment>Контекстное меню</comment>
+  </data>
+  <data name="ContextMenuCCValue" xml:space="preserve">
+    <value>Значение CC</value>
+    <comment>Контекстное меню</comment>
+  </data>
+  <data name="ContextMenuValueDown" xml:space="preserve">
+    <value>{0} вниз: {1}</value>
+    <comment>Контекстное меню</comment>
+  </data>
+  <data name="ContextMenuValueUp" xml:space="preserve">
+    <value>{0} вверх: {1}</value>
+    <comment>Контекстное меню</comment>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>CN Remote {0} : {1}</value>
+    <comment>Заголовок главной формы Form1</comment>
+  </data>
+  <data name="EditMidiActionForm_Title" xml:space="preserve">
+    <value>Редактировать действие кнопки</value>
+    <comment>Заголовок EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveLeft" xml:space="preserve">
+    <value>Влево</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_MoveRight" xml:space="preserve">
+    <value>Вправо</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Name" xml:space="preserve">
+    <value>Имя:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Tooltip" xml:space="preserve">
+    <value>Подсказка:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Channel" xml:space="preserve">
+    <value>Канал:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Type" xml:space="preserve">
+    <value>Тип:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Value" xml:space="preserve">
+    <value>Значение:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Press" xml:space="preserve">
+    <value>Нажатие:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Release" xml:space="preserve">
+    <value>Отпускание:</value>
+    <comment>Метка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Add" xml:space="preserve">
+    <value>Добавить</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Save" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddTitle" xml:space="preserve">
+    <value>Подтвердить добавление</value>
+    <comment>Диалог EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmAddText" xml:space="preserve">
+    <value>Добавить новую кнопку:
+Имя: {0}
+Подсказка: {1}
+Канал: {2}
+Тип: {3}
+{4}
+Значение при нажатии: {5}
+Значение при отпускании: {6}
+
+Продолжить?</value>
+    <comment>Диалог EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Подтвердить удаление</value>
+    <comment>Диалог EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ConfirmDeleteText" xml:space="preserve">
+    <value>Удалить эту кнопку.
+Вы уверены?</value>
+    <comment>Диалог EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgTitle" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Диалог EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_SaveMsgText" xml:space="preserve">
+    <value>Кнопка сохранена</value>
+    <comment>Диалог EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_MouseUpX" xml:space="preserve">
+    <value>X</value>
+    <comment>Кнопка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameLabel" xml:space="preserve">
+    <value>Имя кнопки (отображается на панели)</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_NameTextBox" xml:space="preserve">
+    <value>Введите отображаемое имя кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipLabel" xml:space="preserve">
+    <value>Текст подсказки (показывается при наведении)</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TooltipTextBox" xml:space="preserve">
+    <value>Подсказка для этой кнопки
+Для новой строки используйте
+обратный слэш + строчную n</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelLabel" xml:space="preserve">
+    <value>MIDI-канал (1-16)</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ChannelNumeric" xml:space="preserve">
+    <value>MIDI-канал (1-16)</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeLabel" xml:space="preserve">
+    <value>CC, Нота или Клавиша</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_TypeComboBox" xml:space="preserve">
+    <value>CC, Нота или Клавиша</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueLabel" xml:space="preserve">
+    <value>Значение CC
+Номер ноты
+Команда клавиши</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumeric" xml:space="preserve">
+    <value>Значение CC
+Номер ноты</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_KeyStringTextBox" xml:space="preserve">
+    <value>Команда клавиши
+Используйте "+" для добавления нескольких клавиш</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressLabel" xml:space="preserve">
+    <value>Значение при нажатии кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumeric" xml:space="preserve">
+    <value>Значение при нажатии кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseLabel" xml:space="preserve">
+    <value>Значение при отпускании кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumeric" xml:space="preserve">
+    <value>Значение при отпускании кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MouseUpXLabel" xml:space="preserve">
+    <value>Очистить значение отпускания кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveLeftButton" xml:space="preserve">
+    <value>Переместить эту кнопку влево</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_MoveRightButton" xml:space="preserve">
+    <value>Переместить эту кнопку вправо</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_AddButton" xml:space="preserve">
+    <value>Добавить новую кнопку с этими настройками</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_DeleteButton" xml:space="preserve">
+    <value>Удалить эту кнопку</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_SaveButton" xml:space="preserve">
+    <value>Сохранить изменения этой кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_CancelButton" xml:space="preserve">
+    <value>Отменить и закрыть этот диалог</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ValueNumericText" xml:space="preserve">
+    <value>Значение CC или ноты, или горячие клавиши</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_PressNumericText" xml:space="preserve">
+    <value>Значение при нажатии кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="EditMidiActionForm_ToolTip_ReleaseNumericText" xml:space="preserve">
+    <value>Значение при отпускании кнопки</value>
+    <comment>Подсказка EditMidiActionForm</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiPorts" xml:space="preserve">
+    <value>Порты MIDI по умолчанию</value>
+    <comment>Группа GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiOut" xml:space="preserve">
+    <value>Панель MIDI Выход:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanelMidiIn" xml:space="preserve">
+    <value>Панель MIDI Вход:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxMidiActivity" xml:space="preserve">
+    <value>Кнопки активности MIDI</value>
+    <comment>Группа GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelMidiInColour" xml:space="preserve">
+    <value>Цвет активности MIDI Вход:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowDown" xml:space="preserve">
+    <value>Цвет свечения при нажатии кнопки:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelButtonGlowUp" xml:space="preserve">
+    <value>Цвет свечения при отпускании кнопки:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxTooltips" xml:space="preserve">
+    <value>Настройки подсказок</value>
+    <comment>Группа GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipBack" xml:space="preserve">
+    <value>Фон подсказки:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelTooltipText" xml:space="preserve">
+    <value>Текст подсказки:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxProcesses" xml:space="preserve">
+    <value>Процессы</value>
+    <comment>Группа GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonAddProcess" xml:space="preserve">
+    <value>Добавить</value>
+    <comment>Кнопка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonDeleteProcess" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>Кнопка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessName" xml:space="preserve">
+    <value>Имя процесса:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelPanel" xml:space="preserve">
+    <value>Панель по умолчанию:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiOut" xml:space="preserve">
+    <value>Процесс MIDI Выход:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelProcessMidiIn" xml:space="preserve">
+    <value>Процесс MIDI Вход:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_GroupBoxAutoSwitch" xml:space="preserve">
+    <value>Автоматическое переключение (Эксперт!)</value>
+    <comment>Группа GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchInterval" xml:space="preserve">
+    <value>Проверка автопереключения:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelAutoSwitchDebounce" xml:space="preserve">
+    <value>Задержка автопереключения:</value>
+    <comment>Метка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonOK" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Кнопка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Кнопка GlobalEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_FormTitle" xml:space="preserve">
+    <value>Редактировать глобальные настройки</value>
+    <comment>Заголовок формы GlobalEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxButtons" xml:space="preserve">
+    <value>Настройки главной панели кнопок</value>
+    <comment>Группа ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonWidth" xml:space="preserve">
+    <value>Ширина кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonHeight" xml:space="preserve">
+    <value>Высота кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonGap" xml:space="preserve">
+    <value>Промежуток между кнопками:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelBackgroundColour" xml:space="preserve">
+    <value>Фон:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonBorder" xml:space="preserve">
+    <value>Граница кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontName" xml:space="preserve">
+    <value>Шрифт кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonFontNamePick" xml:space="preserve">
+    <value>Выбрать...</value>
+    <comment>Кнопка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelButtonFontSize" xml:space="preserve">
+    <value>Размер шрифта кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelTopMargin" xml:space="preserve">
+    <value>Верхний отступ:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelLeftMargin" xml:space="preserve">
+    <value>Левый отступ:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_GroupBoxUserCollapse" xml:space="preserve">
+    <value>Дизайн кнопки управления сворачиванием</value>
+    <comment>Группа ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonWidth" xml:space="preserve">
+    <value>Ширина кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonHeight" xml:space="preserve">
+    <value>Высота кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonColour" xml:space="preserve">
+    <value>Цвет кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCBackgroundColour" xml:space="preserve">
+    <value>Фон:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonBorder" xml:space="preserve">
+    <value>Граница кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontName" xml:space="preserve">
+    <value>Шрифт кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_UCButtonFontNamePick" xml:space="preserve">
+    <value>Выбрать...</value>
+    <comment>Кнопка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCButtonFontSize" xml:space="preserve">
+    <value>Размер шрифта кнопки:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCTopMargin" xml:space="preserve">
+    <value>Верхний отступ:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_LabelUCLeftMargin" xml:space="preserve">
+    <value>Левый отступ:</value>
+    <comment>Метка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_CopyColorMenuItem" xml:space="preserve">
+    <value>Копировать цвет</value>
+    <comment>Пункт меню ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_PasteColorMenuItem" xml:space="preserve">
+    <value>Вставить цвет</value>
+    <comment>Пункт меню ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonSave" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>Кнопка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_ButtonCancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>Кнопка ButtonEditorSettings</comment>
+  </data>
+  <data name="ButtonEditorSettings_FormTitle" xml:space="preserve">
+    <value>Редактировать настройки панели кнопок</value>
+    <comment>Заголовок формы ButtonEditorSettings</comment>
+  </data>
+  <data name="GlobalEditorSettings_LabelLanguage" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="GlobalEditorSettings_LabelFallbackPanel" xml:space="preserve">
+    <value>Резервная панель</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedMessage" xml:space="preserve">
+    <value>Новый язык будет использоваться после перезапуска приложения.</value>
+  </data>
+  <data name="GlobalEditorSettings_LanguageChangedTitle" xml:space="preserve">
+    <value>Язык изменён</value>
+  </data>
+  <data name="MenuMakeCollapsibleHidesTitleBar" xml:space="preserve">
+    <value>Сделать сворачиваемой!</value>
+  </data>
+  <data name="DialogSendKeyFailed" xml:space="preserve">
+    <value>Не удалось отправить последовательность клавиш:\n{0}</value>
+  </data>
+  <data name="MenuViewPdfManual" xml:space="preserve">
+    <value>Просмотреть PDF руководство</value>
+  </data>
+  <data name="DialogPdfManualNotFound" xml:space="preserve">
+    <value>PDF руководство не найдено!</value>
+  </data>
+  <data name="KeyStringEntryForm_Title" xml:space="preserve">
+    <value>Редактировать строку клавиш</value>
+  </data>
+</root>
