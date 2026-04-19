@@ -2723,7 +2723,7 @@ namespace Cubendo_Remote_Panel
                 }
 
                 string[] actionParts = trimmed.Split(',');
-                if (actionParts.Length < 7) continue;
+                if (actionParts.Length < 6) continue;
 
                 string type = actionParts[3].Trim();
                 MidiAction action = new MidiAction
@@ -2735,7 +2735,7 @@ namespace Cubendo_Remote_Panel
                     IsKey = type.Equals("KEY", StringComparison.OrdinalIgnoreCase), // NEW
                     Value = int.TryParse(actionParts[4], out int val) ? val : 0,
                     MouseDownValue = int.TryParse(actionParts[5], out int mdv) ? mdv : 0,
-                    MouseUpValue = string.IsNullOrWhiteSpace(actionParts[6]) ? (int?)null : (int.TryParse(actionParts[6], out int muv) ? (int?)muv : null),
+                    MouseUpValue = actionParts.Length > 6 && !string.IsNullOrWhiteSpace(actionParts[6]) ? (int.TryParse(actionParts[6], out int muv) ? (int?)muv : null) : null,
                     KeyString = type.Equals("KEY", StringComparison.OrdinalIgnoreCase) ? actionParts[4].Trim() : null // NEW
                 };
                 midiActions.Add(action);

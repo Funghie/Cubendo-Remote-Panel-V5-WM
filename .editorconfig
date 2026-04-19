@@ -32,7 +32,7 @@ dotnet_style_qualification_for_method = false:silent
 dotnet_style_qualification_for_event = false:silent
 
 # file header template
-file_header_template = Copyright (c) 2025 Phil Pendlebury\nEverything Creative\nLicensed under MIT
+file_header_template = Copyright (c) 2026 Phil Pendlebury\nEverything Creative\nLicensed under MIT
 
 # namespace style (block-scoped for .NET 4.8.1)
 csharp_style_namespace_declarations = block_scoped:warning
